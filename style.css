@@ -158,6 +158,22 @@ h1 {
   transform: translateY(-1px);
 }
 
+.secondary-link {
+  margin-top: 4px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  border-bottom: 1px solid transparent;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.secondary-link:hover,
+.secondary-link:focus-visible {
+  color: var(--text);
+  border-color: var(--line-strong);
+}
+
 .final-section .content-block {
   text-align: center;
 }
